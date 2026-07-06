@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+
+            <div class="songItemContainer">
+                <div>
+                    <div class="songItem">
+                        <img src="cover1.jpg" alt="1">
+                        <span class="cover1_name">Let Me Love You</span>
+                        <span class="songlistplay"><span class="timestamp"><i class="fa-solid fa-circle-play jeel"
+                                    id="0"></i>
+                                03:27</span></span>
+                    </div>
+                </div>
+                <div>
+                    <div class="songItem">
+                        <img src="cover2.jpg" alt="1">
+                        <span class="cover1_name">Perfect</span>
+                        <span class="songlistplay"><span class="timestamp"><i class="fa-solid fa-circle-play jeel"
+                                    id="1"></i>
+                                04:23</span></span>
+                    </div>
+                </div>
+                <div>
+                    <div class="songItem">
+                        <img src="cover3.jpg" alt="1">
+                        <span class="cover1_name">Runaway</span>
+                        <span class="songlistplay"><span class="timestamp"><i class="fa-solid fa-circle-play jeel"
+                                    id="2"></i>
+                                04:09</span></span>
+                    </div>
+                </div>
+                <div>
+                    <div class="songItem">
+                        <img src="cover4.jpg" alt="1">
+                        <span class="cover1_name">Night Changes</span>
+                        <span class="songlistplay"><span class="timestamp"><i class="fa-solid fa-circle-play jeel"
+                                    id="3"></i>
+                                04:00</span></span>
+                    </div>
+                </div>
+                <div>
+                    <div class="songItem">
+                        <img src="cover5.jpg" alt="1">
+                        <span class="cover1_name">Shape Of You</span>
+                        <span class="songlistplay"><span class="timestamp"><i class="fa-solid fa-circle-play jeel"
+                                    id="4"></i>
+                                04:40</span></span>
+                    </div>
+                </div>
+                <div>
+                    <div class="songItem">
+                        <img src="cover6.jpg" alt="1">
+                        <span class="cover1_name">Chanel</span>
+                        <span class="songlistplay"><span class="timestamp"><i class="fa-solid fa-circle-play jeel"
+                                    id="5"></i>
+                                03:10</span></span>
+                    </div>
+                </div>
+                <div>
+                    <div class="songItem">
+                        <img src="cover7.webp" alt="1">
+                        <span class="cover1_name">Pretty Little Baby</span>
+                        <span class="songlistplay"><span class="timestamp"><i class="fa-solid fa-circle-play jeel"
+                                    id="6"></i>
+                                02:25</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+
+        <div class="icons">
+            <span id="previous"><i class="fa-solid fa-3x fa-backward" id="previous"></i></span>
+            <span id="masterPlayWrapper"><i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i></span>
+            <span id="next"><i class="fa-solid fa-3x fa-forward" id="next"></i></span>
+        </div>
+        <div class="songInfo">
+            <img src="music.gif" width="42px" alt="" id="gif">
+            <span id="masterSongName">Let Me Love You - Justin Beiber</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/81e64fb881.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
