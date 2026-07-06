@@ -1,13 +1,18 @@
-# Spotify Clone 🎵
+# 🎵 Spotify Clone
 
-A responsive Spotify-inspired music player built using HTML, CSS, and JavaScript. This project was created for educational and portfolio purposes to improve frontend development skills.
+A responsive Spotify-inspired music player built using **HTML, CSS, and JavaScript**. This project was developed for learning and portfolio purposes to improve frontend development skills.
+
+---
 
 ## ✨ Features
 
-- Responsive user interface
-- Music player controls
-- Modern Spotify-inspired design
-- Clean and organized code
+- 🎧 Music player interface
+- 📱 Responsive design
+- 🎨 Modern Spotify-inspired UI
+- ⏯️ Play/Pause functionality
+- 📂 Clean and organized project structure
+
+---
 
 ## 🛠️ Technologies Used
 
@@ -15,17 +20,48 @@ A responsive Spotify-inspired music player built using HTML, CSS, and JavaScript
 - CSS3
 - JavaScript
 
-## 🚀 How to Run
+---
 
-1. Download or clone this repository.
-2. Open `index.html` in your web browser.
+## 🚀 Getting Started
 
-## ⚠️ Disclaimer
+1. Clone this repository
+   ```bash
+   git clone https://github.com/jeel-9414/spotify-clone.git
+   ```
 
-This is an independent educational project inspired by Spotify. It is not affiliated with, endorsed by, or associated with Spotify.
+2. Open the project folder.
 
-## © Copyright
+3. Run `index.html` in your preferred web browser.
+
+---
+
+## 📁 Project Structure
+
+```
+spotify-clone/
+│── index.html
+│── style.css
+│── script.js
+│── logo.png
+│── bg.jpg
+│── cover1.jpg
+│── ...
+```
+
+---
+
+## 📌 Disclaimer
+
+This project is an independent educational clone inspired by Spotify.
+
+It is **not affiliated with, endorsed by, or associated with Spotify**.
+
+Audio files are **not included** in this repository due to copyright considerations.
+
+---
+
+## 📜 Copyright
 
 © 2026 Jeel Panchal. All rights reserved.
 
-This source code is shared for portfolio and educational purposes only. Unauthorized copying, redistribution, or commercial use without prior written permission is not permitted.
+This repository is shared for educational and portfolio purposes only. Unauthorized copying, redistribution, or commercial use without prior written permission is prohibited.
