@@ -4,6 +4,12 @@ A responsive Spotify-inspired music player built using **HTML, CSS, and JavaScri
 
 ---
 
+## 📸 Preview
+
+![Spotify Clone](screenshots/clone.png)
+
+---
+
 ## ✨ Features
 
 - 🎧 Music player interface
@@ -25,6 +31,7 @@ A responsive Spotify-inspired music player built using **HTML, CSS, and JavaScri
 ## 🚀 Getting Started
 
 1. Clone this repository
+
    ```bash
    git clone https://github.com/jeel-9414/spotify-clone.git
    ```
@@ -37,7 +44,7 @@ A responsive Spotify-inspired music player built using **HTML, CSS, and JavaScri
 
 ## 📁 Project Structure
 
-```
+```text
 spotify-clone/
 │── index.html
 │── style.css
@@ -55,8 +62,6 @@ spotify-clone/
 This project is an independent educational clone inspired by Spotify.
 
 It is **not affiliated with, endorsed by, or associated with Spotify**.
-
-Audio files are **not included** in this repository due to copyright considerations.
 
 ---
 
